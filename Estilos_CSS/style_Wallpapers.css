@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.Body_Title{
+    
+    display: block;
+    position: static;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 250%;
+}
+
+p::after, p::before{
+    
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    
+    background-color: black;
+    
+    top: 0.6em;
+}
+
+p::after{
+    
+    left: -120%;
+}
+
+p::before{
+    
+    right: -120%;
+}

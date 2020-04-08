@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 * {
     color: #212529;
 } 
+
 
 .Cuerpo{
     
@@ -57,12 +59,15 @@
 .Contenedor{
     
     width: 100%;
+
     display: flex;
+
 }
 
 .P1{
     
     width: 50%;
+
     background-color: #e9ecef;
     
     text-align: right;
@@ -70,6 +75,7 @@
     border: 5px solid #f1f3f5;
     border-right: 1px solid #f1f3f5;
     
+
     
     padding-right: 3px;
     
@@ -78,15 +84,18 @@
 .P2{
     
     width: 50%;
+
     background-color: #e9ecef;
     
     text-align: left;
     
     border: 5px solid #f1f3f5;
+
     border-left: 1px solid #f1f3f5;
     
     padding-left: 3px;
 }
+
 
 /*Horarios*/
 .Hor{
@@ -163,3 +172,4 @@
     font-size: 20px;
 }
 /* Informacion */
+

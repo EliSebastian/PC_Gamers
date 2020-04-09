@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.Cuerpo{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    
+    text-align: center;
+}
+
+.Cuerpo #Title{
+    
+    font-size: 35px;
+}
+
+.Cuerpo > ul{
+    
+    transition: 0.5s;
+    height: 0px;
+    overflow: hidden;
+}
+
+.Cuerpo > ul > li{
+    
+    list-style: none;
+}
+
+.Cuerpo label{
+    
+    cursor: pointer;
+}
+
+#Compus{
+    
+    display: none;
+}
+
+#Compus:checked ~ .PC{
+    
+    height: 100px;
+}
+
+#Celulares{
+    
+    display: none;
+}
+
+#Celulares:checked ~ .Cel{
+    
+    height: 100px;
+}

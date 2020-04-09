@@ -36,7 +36,7 @@
 
 #Compus:checked ~ .PC{
     
-    height: 100px;
+    height: 200px;
 }
 
 #Celulares{
@@ -46,5 +46,5 @@
 
 #Celulares:checked ~ .Cel{
     
-    height: 100px;
+    height: 200px;
 }

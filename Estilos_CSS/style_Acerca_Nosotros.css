@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.Cuerpo{
+    
+    text-align: center;
+    
+}
+
+.Cuerpo > h1 ,h2{
+    
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Cuerpo > h1{
+    
+    font-size: 37px;
+}
+
+.Cuerpo > h2{
+    
+    font-size: 30px;
+}
+
+.Cuerpo > p{
+    
+    font-size: 20px;
+}
